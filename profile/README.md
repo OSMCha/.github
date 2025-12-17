@@ -1,6 +1,4 @@
-# OSMCha
-
-OSMCha (OpenStreetMap Changeset Analyzer) is a tool for reviewing and visualizing edits to OpenStreetMap. It aims to help human reviewers more easily spot editing mistakes and vandalism. The production instance is available at [osmcha.org](https://osmcha.org).
+**OSMCha** (OpenStreetMap Changeset Analyzer) is a tool for reviewing and visualizing edits to OpenStreetMap. It aims to help human reviewers more easily spot editing mistakes and vandalism. The production instance is available at [osmcha.org](https://osmcha.org).
 
 Each time someone makes an edit to OpenStreetMap, it creates a record called a Changeset. The changeset records both what the user changed (additions, modifications, and deletions) as well as metadata (their user name, timestamp, and a description they provided about their changes). OSMCha can show any changeset as a visualization on a map, with added elements in green, modified elements in yellow or gray, and deleted elements in red. OSMCha also lets you search or filter changesets to find those with certain properties, like those by a certain user, or those that modified elements with certain OSM tags.
 
